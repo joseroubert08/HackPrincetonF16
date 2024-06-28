@@ -2,14 +2,19 @@ click==6.6
 Flask==0.11.1
 Flask-Cors==2.1.2
 ipykernel==4.3.1
-ipython==4.2.0
+ipython==8.10.0
 ipython-genutils==0.1.0
 ipywidgets==4.1.1
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2==3.1.4
 jsonschema==2.5.1
 MarkupSafe==0.23
 Werkzeug==0.11.10
 twython==3.4.0
 google-api-python-client==1.5.5
 aylien-apiclient==0.6.0
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
