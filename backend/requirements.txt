@@ -1,6 +1,6 @@
 click==6.6
 Flask==0.11.1
-Flask-Cors==2.1.2
+Flask-Cors==4.0.1
 ipykernel==4.3.1
 ipython==4.2.0
 ipython-genutils==0.1.0
